@@ -1,0 +1,58 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    margin-top: 20px;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#available-rooms li {
+    margin-bottom: 10px;
+}
+
+#available-rooms button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#user-bookings li {
+    margin-bottom: 10px;
+}
+
+#user-bookings button {
+    background-color: #FF5722;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
